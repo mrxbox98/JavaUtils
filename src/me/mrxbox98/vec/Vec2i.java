@@ -42,7 +42,7 @@ public class Vec2i {
     /**
      * Sets the Y value of the vec
      *
-             * @param y the new Y value
+     * @param y the new Y value
      */
     public void setY(int y) {
         this.y = y;
