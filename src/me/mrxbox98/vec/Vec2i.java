@@ -6,6 +6,13 @@ public class Vec2i {
 
     private int y;
 
+    /**
+     * Creates a 2 integer vector
+     *
+     * @param x X integer
+     *
+     * @param y Y integer
+     */
     public Vec2i(int x, int y)
     {
         this.x=x;

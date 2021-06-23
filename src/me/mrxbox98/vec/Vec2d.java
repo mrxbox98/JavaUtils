@@ -6,6 +6,13 @@ public class Vec2d {
 
     private double y;
 
+    /**
+     * Creates a 2 double vector
+     *
+     * @param x X double
+     *
+     * @param y Y double
+     */
     public Vec2d(double x, double y)
     {
         this.x=x;

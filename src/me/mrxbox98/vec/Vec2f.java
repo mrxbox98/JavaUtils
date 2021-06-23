@@ -6,6 +6,13 @@ public class Vec2f {
 
     private float y;
 
+    /**
+     * Creates a 2 float vector
+     *
+     * @param x X float
+     *
+     * @param y Y float
+     */
     public Vec2f(float x, float y)
     {
         this.x=x;

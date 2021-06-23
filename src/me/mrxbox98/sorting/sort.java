@@ -4,6 +4,13 @@ import java.util.ArrayList;
 
 public class sort {
 
+    /**
+     * Very inefficient sort I would not recommend using this
+     *
+     * @param array An array of Integers
+     *
+     * @return The hopefully sorted array of Integers
+     */
     public static ArrayList<Integer> sortInteger(ArrayList<Integer> array)
     {
         for(int i=0;i<array.size();i++)

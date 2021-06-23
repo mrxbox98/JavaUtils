@@ -6,6 +6,13 @@ public class Vec2l {
 
     private long y;
 
+    /**
+     * Creates a 2 long vector
+     *
+     * @param x X long
+     *
+     * @param y Y long
+     */
     public Vec2l(long x, long y)
     {
         this.x=x;
