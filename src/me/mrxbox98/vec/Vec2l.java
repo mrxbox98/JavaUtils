@@ -1,7 +1,7 @@
 package me.mrxbox98.vec;
 
 public class Vec2l {
-    
+
     private long x;
 
     private long y;
