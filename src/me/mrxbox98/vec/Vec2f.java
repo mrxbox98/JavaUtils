@@ -55,4 +55,34 @@ public class Vec2f {
         this.y = y;
     }
 
+    /**
+     * Converts the current vector into a integer vector
+     *
+     * @return A integer vector
+     */
+    public Vec2i getVec2i()
+    {
+        return new Vec2i((int)x,(int)y);
+    }
+
+    /**
+     * Converts the current vector into a double vector
+     *
+     * @return A double vector
+     */
+    public Vec2d getVec2d()
+    {
+        return new Vec2d(x,y);
+    }
+
+    /**
+     * Converts the current vector into a long vector
+     *
+     * @return A long vector
+     */
+    public Vec2l getVec2l()
+    {
+        return new Vec2l((long)x,(long)y);
+    }
+
 }

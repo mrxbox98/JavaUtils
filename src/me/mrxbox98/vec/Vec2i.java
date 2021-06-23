@@ -54,4 +54,34 @@ public class Vec2i {
     public void setY(int y) {
         this.y = y;
     }
+
+    /**
+     * Converts the current vector into a double vector
+     *
+     * @return A double vector
+     */
+    public Vec2d getVec2d()
+    {
+        return new Vec2d(x,y);
+    }
+
+    /**
+     * Converts the current vector into a float vector
+     *
+     * @return A float vector
+     */
+    public Vec2f getVec2f()
+    {
+        return new Vec2f(x,y);
+    }
+
+    /**
+     * Converts the current vector into a long vector
+     *
+     * @return A long vector
+     */
+    public Vec2l getVec2l()
+    {
+        return new Vec2l(x,y);
+    }
 }
