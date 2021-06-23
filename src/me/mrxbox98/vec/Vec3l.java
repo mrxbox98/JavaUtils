@@ -4,6 +4,15 @@ public class Vec3l extends Vec2l{
 
     private long z;
 
+    /**
+     * Creates a 3 long vector
+     *
+     * @param x X long
+     *
+     * @param y Y long
+     *
+     * @param z Z long
+     */
     public Vec3l(long x, long y, long z) {
         super(x, y);
         this.z=z;

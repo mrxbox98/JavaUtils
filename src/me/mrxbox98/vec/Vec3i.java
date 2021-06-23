@@ -4,6 +4,15 @@ public class Vec3i extends Vec2i{
 
     private int z;
 
+    /**
+     * Creates a 3 integer vector
+     *
+     * @param x X integer
+     *
+     * @param y Y integer
+     *
+     * @param z Z integer
+     */
     public Vec3i(int x, int y, int z) {
         super(x, y);
         this.z=z;

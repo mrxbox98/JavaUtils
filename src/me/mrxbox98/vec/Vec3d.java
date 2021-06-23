@@ -4,6 +4,15 @@ public class Vec3d extends Vec2d{
 
     private double z;
 
+    /**
+     * Creates a 3 double vector
+     *
+     * @param x X double
+     *
+     * @param y Y double
+     *
+     * @param z Z double
+     */
     public Vec3d(double x, double y, double z) {
         super(x, y);
         this.z=z;
