@@ -2,7 +2,7 @@ package me.mrxbox98.sorting;
 
 import java.util.ArrayList;
 
-public class sort {
+public class Sort {
 
     /**
      * Very inefficient sort I would not recommend using this
