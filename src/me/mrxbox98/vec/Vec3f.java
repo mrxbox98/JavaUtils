@@ -35,4 +35,33 @@ public class Vec3f extends Vec2f{
         this.z = z;
     }
 
+    /**
+     * Converts this to a Vec3l
+     *
+     * @return a Vec3l of this
+     */
+    public Vec3l getVec3l()
+    {
+        return new Vec3l((long)getX(),(long)getZ(),(long)getY());
+    }
+
+    /**
+     * Converts this to a Vec3i
+     *
+     * @return a Vec3i of this
+     */
+    public Vec3i getVec3i()
+    {
+        return new Vec3i((int)getX(),(int)getY(),(int)getZ());
+    }
+
+    /**
+     * Converts this to a Vec3d
+     *
+     * @return a Vec3d of this
+     */
+    public Vec3d getVec3d()
+    {
+        return new Vec3d((double)getX(),(double)getY(),(double)getZ());
+    }
 }
