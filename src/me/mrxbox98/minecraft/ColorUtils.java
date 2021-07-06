@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 
 public class ColorUtils {
-    
+
     public static final String BLACK;
     public static final String DARK_BLUE;
     public static final String DARK_GREEN;
@@ -118,7 +118,6 @@ public class ColorUtils {
                 apply=apply.substring(0,apply.indexOf("§")) + apply.substring(apply.indexOf("§")+2);
             }
         } catch (Exception e) {
-
         }
         return apply;
 
