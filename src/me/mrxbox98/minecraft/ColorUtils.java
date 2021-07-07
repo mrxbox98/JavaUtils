@@ -123,6 +123,14 @@ public class ColorUtils {
 
     }
 
+    public static String getFormattedString(String in)
+    {
+        colorStrings.forEach((str1,str2) -> {
+            in.replaceAll(str1,str2);
+        });
+        return in;
+    }
+
 
 
 }
