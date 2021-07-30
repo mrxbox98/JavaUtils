@@ -1,6 +1,6 @@
 package me.mrxbox98.logger;
 
-public class Console {
+public interface Console {
 
     /**
      * Logs a string as an info
@@ -19,7 +19,7 @@ public class Console {
      */
     public static void info(String str)
     {
-        System.out.println("[INFO]:"+str);
+        System.out.println("\u001b[37m[INFO]:"+str);
     }
 
     /**
@@ -29,7 +29,7 @@ public class Console {
      */
     public static void warn(String str)
     {
-        System.out.println("[WARN]:"+str);
+        System.out.println("\u001b[33m[WARN]:"+str);
     }
 
     /**
@@ -41,7 +41,7 @@ public class Console {
     {
         for(StackTraceElement trace: e.getStackTrace())
         {
-            System.out.println("[ERROR]:"+trace.toString());
+            System.out.println("\u001b[31m[ERROR]:"+trace.toString());
         }
     }
 
